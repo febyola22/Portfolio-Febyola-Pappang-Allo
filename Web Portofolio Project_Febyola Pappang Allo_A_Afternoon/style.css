@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script:wght@500&family=Passions+Conflict&display=swap');
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 170%;
+}
+
+.nav-item {
+  font-family: 'Abyssinica SIL', serif;
+}
+
+.display-4 {
+  font-family: 'Abyssinica SIL', serif;
+}
+
+.text {
+  font-family: initial;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #af9f9f;
+  padding-top: 10px;
+}
+
+.fab {
+  color: black;
+}
+
+.container1 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #674747;
+  letter-spacing: 1rem;
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 150%;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #af9f9f; /* Warna coklat untuk latar belakang galeri */
+  padding: 20px;
+}
+
+.project {
+  margin: 10px;
+  text-align: center;
+}
+
+.card {
+  background-color: #d0b8a8;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 80px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #674747;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #674747;
+}
+
+/* Footer */
+.footer {
+  background: #674747;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+
+.footer p {
+  color: white;
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer p a {
+  color: #fff6bf;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
